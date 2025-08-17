@@ -1,0 +1,16 @@
+#ifndef CONFIG_EXAMPLE_H
+#define CONFIG_EXAMPLE_H
+
+
+const char* WIFI_SSID = "YOUR_WIFI_SSID";
+const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
+
+
+const String SEOUL_API_KEY = "YOUR_SEOUL_API_KEY";
+const String STATION_NAME = "URL_ENCODED_STATION_NAME";
+
+const String WEATHER_API_KEY = "YOUR_WEATHER_API_KEY";
+const String CITY_ID = "YOUR_CITY_ID";
+
+#endif
+
