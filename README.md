@@ -17,17 +17,13 @@ subway-lcd-project/
 ├─ include/
 │ └─ config.example.h # 샘플, 실제 config.h는 업로드하지 않음
 ├─ docs/
-│ ├─ wiring.png # 회로도 이미지
+│ ├─ circuit configuration001.png # 회로도 이미지
 │ └─ demo.mp4 # 프로젝트 동영상 (다운로드용)
 ├─ README.md
 └─ LICENSE
 
-markdown
-복사
-편집
-
 ## 회로도
-![Wiring Diagram](docs/wiring.png)
+![Wiring Diagram](docs/circuit configuration001.png)
 
 ## 동영상
 - 프로젝트 동영상은 `docs/demo.mp4`에 있습니다.  
@@ -35,4 +31,4 @@ markdown
 
 ## 주의사항
 - 실제 Wi-Fi 정보(config.h)는 보안상 업로드하지 않습니다.
-- 5GHz Wi-Fi는 Wemos D1 R1에서 연결이 안 되므로 2.4GHz 사용 권장.
+- Wemos D1 R1은 **2.4GHz Wi-Fi만 지원**하며, 5GHz Wi-Fi는 연결되지 않습니다.
